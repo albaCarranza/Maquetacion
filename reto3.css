@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 56vw;
+    height: 85vh;
+    border: 14px solid rgb(226, 226, 226);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.hijo1 {
+    width: 100%;
+    height: 15%;
+    border: 4px solid rgb(111, 187, 111);
+    border-radius: 5px;
+
+    justify-content: center;
+
+}
+
+.hijo2 {
+    width: 100%;
+    height: 9%;
+    border: 4px solid rgb(241, 161, 161);
+    border-radius: 5px;
+
+}
+
+.hijo3 {
+    width: 100%;
+    height: 68%;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.article {
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgb(77, 77, 184);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.spacio1 {
+    width: 100%;
+    height: 10%;
+}
+
+.header {
+    width: 100%;
+    height: 13%;
+    border: 4px solid rgb(111, 187, 111);
+    border-radius: 5px;
+}
+
+.spacio {
+    width: 100%;
+    height: 50%;
+}
+
+.section {
+    width: 100%;
+    height: 13%;
+    border: 4px solid purple;
+    border-radius: 4px;
+}
+
+.footer {
+    width: 100%;
+    height: 8%;
+    border: 4px solid yellow;
+    border-radius: 4px;
+
+}
+
+
+.div {
+    width: 60%;
+    height: 100%;
+    border: 4px solid rgb(255, 196, 0);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.aside {
+    width: 95%;
+    height: 47%;
+    border: 4px solid rgb(86, 185, 252);
+    border-radius: 4px;
+}
+
+.aside {
+    width: 95%;
+    height: 47%;
+    border: 4px solid rgb(86, 185, 252);
+    border-radius: 4px;
+}
+
+.hijo4 {
+    width: 100%;
+    height: 9vh;
+    border: 4px solid yellow;
+    border-radius: 5px;
+}
