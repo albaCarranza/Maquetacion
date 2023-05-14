@@ -1,0 +1,313 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: start;
+    justify-content: space-around;
+
+
+}
+
+.nav img {
+    height: 30px;
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.content {
+    height: 811px;
+    color: white;
+    font-size: 30px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 60px;
+    background-image: url(./imagenes/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+    background-size: cover;
+    justify-content: space-between;
+
+}
+
+.img {
+    height: 70%;
+}
+
+.BECOME {
+    color: rgb(0, 208, 130);
+    opacity: 1;
+}
+
+.content h3 {
+    opacity: .7;
+    font-weight: bold;
+}
+
+.content2 h3 {
+    font-size: 31px;
+    opacity: 1;
+}
+
+.convertimos {
+    color: rgb(0, 208, 130);
+
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+   
+  .redes-sociales{
+    display: flex;
+    justify-content:flex-end;
+    
+  }
+  .redes-sociales i {
+    width: 30px;
+    height: 30px;
+  }
+
+/* .contacto */
+
+.content_ {
+    height: 881px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./imagenes/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.logo span {
+    color: rgb(0, 208, 130);
+}
+
+
+.contact-cuadro {
+    padding: 20px;
+    background: #0000ff;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.contact-form button,
+.contact-form input,
+.contact-form textarea {
+    width: 73%;
+    padding: 7px;
+    border: none;
+    background: none;
+    border-bottom: 3px solid black;
+}
+
+.contact-form button {
+    background: black;
+    border: 0;
+    color: white;
+}
+
+.contact-form {
+    width: 120%;
+    padding: 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.code {
+    font-size: 10px;
+}
+
+.dudas {
+    font-size: 40px;
+}
+
+
+/* .cursos */
+
+body {
+    color: black;
+    background-color: #0000ff;
+    background-size: cover;
+
+    background-image: url(./imagenes/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.curso {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.curso {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.fecha {
+    font-weight: bold;
+}
+
+.precio,
+.plazas {
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    margin-top: 5px;
+}
+
+.Developer {
+    color: rgb(0, 208, 130);
+}
+
+.Science {
+    color: rgb(0, 208, 130);
+}
+
+.FullTimeWeb {
+    color: #0000ff
+}
+
+.PartTimeWeb {
+    color: #0000ff;
+}
+
+.FullTimeData {
+    color: #0000ff;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+   
+  .redes-sociales{
+    display: flex;
+    justify-content:flex-end;
+    
+  }
+  .redes-sociales i {
+    width: 30px;
+    height: 30px;
+  }
+
+/* .equipaso */
+  
+  .team-section {
+    margin-bottom: 40px;
+  }
+
+  .team-section h2{
+    color: rgb(0, 208, 130);
+    text-align: center;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+  width: 500px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  }
+
+  .puesto {
+    font-weight:bold
+  }
+
+  .especialidad{
+    font-weight: bolder;
+  }
+  
+  .team-member__photo {
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .team-member h3{
+    font-size: 25px;
+    color:#0000ff
+  }
+
+
+ 
+  
+
+  
