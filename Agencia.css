@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(8, 47, 118)
+    /* border: 2px solid red; */
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(8, 47, 118);
+    display: flex;
+    flex-direction: row;
+}
+
+.header h1{
+    color: rgb(223, 210, 32);
+    display: flex;
+    justify-content:left;
+    font-size: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(8, 47, 118);
+    border: 1px solid white;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.section {
+    background-color: rgb(230, 230, 242);
+    width: 100%;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.section input{
+    border-radius: 7px;
+}
+
+
+footer {
+    width: 100%;
+    height: 71%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(rgb(8, 47, 118),rgb(186, 197, 218));
+    background-color: rgb(115, 192, 255);
+}
+
+footer p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer h2{
+    color: rgb(221, 208, 32);
+    font-size: 53px;
+    
+}
+
+footer img{
+    width: 33.3%;
+}
+
+.galeria{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ .fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#resultados {
+  margin-top: 20px;
+}
+
+#resultados div {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#resultados h3 {
+  margin-top: 0;
+}
+
+#resultados p {
+  margin-bottom: 5px;
+}
+
+input {
+    width: 200px;
+    height: 30px; 
+  }
