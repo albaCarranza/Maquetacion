@@ -1,4 +1,465 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-evenly
+}
+
+.nav a {
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.nav a:hover {
+  font-size: 22px;
+  color: rgb(229, 141, 94)
+}
+
+.nav img {
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  text-align: center;
+}
+
+.principal {
+  background-image: url(./milogo/room-eibtEHb7eBQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 843px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+  opacity: 0.7;
+}
+
+.principal:hover {
+  opacity: 2;
+}
+
+
+
+.principal-content {
+  color: #ffffff;
+}
+
+.principal-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.principal-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: rgb(229, 141, 94)
+}
+
+/*proyects******************/
+
+.projects h3 {
+  font-size: 35px;
+  display: flex;
+}
+
+.titulo {
+  height: 100px;
+  font-size: 25px;
+  color: #8f8f8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+}
+
+.project img {
+  height: 465px;
+}
+
+.project-description {
+  background-color: rgba(45, 45, 45, 0.3);
+  text-align: justify;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.3s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.project:hover .project-description {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.descrip {
+  width: 70%;
+  line-height: 1.5;
+}
+
+
+.middle {
+  height: 35px;
+}
+
+
+
+.project2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.project2 img {
+  height: 465px;
+}
+
+.project2-description {
+  background-color: rgba(45, 45, 45, 0.3);
+  text-align: justify;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.3s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.project2:hover .project2-description {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.descrip {
+  width: 70%;
+  line-height: 1.5;
+}
+
+/*Sobre mí***************/
+
+
+.about {
+  background-color: #171717;
+  background-image: url(./milogo/room-eibtEHb7eBQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 17px;
+}
+
+.about img {
+  height: 500px;
+  display: flex;
+  object-fit: cover;
+  margin-left: 100px;
+  opacity: 0.7;
+}
+
+.about .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  height: 500px;
+  font-size: 20px;
+  border-left: 40px solid rgb(229, 141, 94);
+
+  background-color: rgba(32, 32, 32, 0.3);
+  color: white;
+  padding: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 2;
+}
+
+.about .info:hover {
+  opacity: 0.7;
+}
+
+
+
+.about a {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.R {
+  color: rgb(229, 141, 94);
+}
+
+.T {
+  color: rgb(229, 141, 94);
+}
+
+
+
+.about h2 {
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+.about h4 {
+  line-height: 4.5;
+  font-size: 22px;
+}
+
+.about h4:hover {
+  color: rgb(162, 162, 162)
+}
+
+.about p {
+  margin-bottom: 40px;
+  transition: font-size 0.3s ease, color 0.3s ease;
+
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/*Contact***************************/
+
+.content {
+  height: 881px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url(./milogo/room-eibtEHb7eBQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  color: white;
+
+}
+
+.logo {
+  text-align: center;
+  font-size: 50px;
+}
+
+.logo span {
+  color: rgb(0, 208, 130);
+}
+
+
+.contact-cuadro {
+  padding: 20px;
+  background-color: rgba(49, 49, 49, 0.3);
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+
+}
+
+
+.contact-form button,
+.contact-form input,
+.contact-form textarea {
+  width: 73%;
+  padding: 7px;
+  border: none;
+  background: none;
+  border-bottom: 3px solid black;
+}
+
+.contact-form button {
+  background: black;
+  border: 0;
+  color: white;
+
+}
+
+.btn_ {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 50px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.btn_:hover {
+  transform: scale(1.1);
+  color: rgb(229, 141, 94)
+}
+
+.contact-form {
+  width: 120%;
+  padding: 50px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.contact-info h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.code {
+  font-size: 10px;
+}
+
+.dudas {
+  font-size: 40px;
+}
+
+
+.copy {
+  font-size: 13px;
+}
+
+/*More********************/
+
+.caja-principal {
+  height: 881px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url(./milogo/room-eibtEHb7eBQ-unsplash.jpg);
+  background-size: cover;
+  height: 850px;
+  color: white;
+}
+
+.programas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 500px;
+  border-left: 40px solid rgb(229, 141, 94);
+
+  background-color: rgba(32, 32, 32, 0.3);
+  color: white;
+  padding: 20px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 2;
+}
+
+
+.programas .container i {
+  font-size: 100px;
+  margin: 40px;
+  transition: transform 0.2s ease;
+
+}
+
+.programas .container i:hover {
+  transform: scale(1.1);
+}
+
+.caja-principal p {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.Development {
+  color: rgb(229, 141, 94);
+  ;
+}
+
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
 
 * {
@@ -305,9 +766,3 @@ footer {
     font-size: 25px;
     color:#0000ff
   }
-
-
- 
-  
-
-  
